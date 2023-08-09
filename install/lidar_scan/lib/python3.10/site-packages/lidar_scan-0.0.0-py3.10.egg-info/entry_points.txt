@@ -1,0 +1,6 @@
+[console_scripts]
+colorMappingNode = lidar_scan.colorMappingNode:main
+fixed_math = lidar_scan.fixed_math:main
+lidar_pub = lidar_scan.lidar_pub:main
+pointcloud_to_laserscan_node = lidar_scan.pointcloud_to_laserscan_node:main
+

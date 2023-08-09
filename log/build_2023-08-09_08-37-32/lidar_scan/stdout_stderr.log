@@ -1,0 +1,51 @@
+running egg_info
+creating ../build/lidar_scan/lidar_scan.egg-info
+writing ../build/lidar_scan/lidar_scan.egg-info/PKG-INFO
+writing dependency_links to ../build/lidar_scan/lidar_scan.egg-info/dependency_links.txt
+writing entry points to ../build/lidar_scan/lidar_scan.egg-info/entry_points.txt
+writing requirements to ../build/lidar_scan/lidar_scan.egg-info/requires.txt
+writing top-level names to ../build/lidar_scan/lidar_scan.egg-info/top_level.txt
+writing manifest file '../build/lidar_scan/lidar_scan.egg-info/SOURCES.txt'
+reading manifest file '../build/lidar_scan/lidar_scan.egg-info/SOURCES.txt'
+writing manifest file '../build/lidar_scan/lidar_scan.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/pt/nav_ws/build/lidar_scan/build
+creating /home/pt/nav_ws/build/lidar_scan/build/lib
+creating /home/pt/nav_ws/build/lidar_scan/build/lib/lidar_scan
+copying lidar_scan/__init__.py -> /home/pt/nav_ws/build/lidar_scan/build/lib/lidar_scan
+copying lidar_scan/lidar_pub.py -> /home/pt/nav_ws/build/lidar_scan/build/lib/lidar_scan
+copying lidar_scan/colorMappingNode.py -> /home/pt/nav_ws/build/lidar_scan/build/lib/lidar_scan
+copying lidar_scan/fixed_math.py -> /home/pt/nav_ws/build/lidar_scan/build/lib/lidar_scan
+running install
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running install_lib
+creating /home/pt/nav_ws/install/lidar_scan/lib/python3.10/site-packages/lidar_scan
+copying /home/pt/nav_ws/build/lidar_scan/build/lib/lidar_scan/__init__.py -> /home/pt/nav_ws/install/lidar_scan/lib/python3.10/site-packages/lidar_scan
+copying /home/pt/nav_ws/build/lidar_scan/build/lib/lidar_scan/lidar_pub.py -> /home/pt/nav_ws/install/lidar_scan/lib/python3.10/site-packages/lidar_scan
+copying /home/pt/nav_ws/build/lidar_scan/build/lib/lidar_scan/colorMappingNode.py -> /home/pt/nav_ws/install/lidar_scan/lib/python3.10/site-packages/lidar_scan
+copying /home/pt/nav_ws/build/lidar_scan/build/lib/lidar_scan/fixed_math.py -> /home/pt/nav_ws/install/lidar_scan/lib/python3.10/site-packages/lidar_scan
+byte-compiling /home/pt/nav_ws/install/lidar_scan/lib/python3.10/site-packages/lidar_scan/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/pt/nav_ws/install/lidar_scan/lib/python3.10/site-packages/lidar_scan/lidar_pub.py to lidar_pub.cpython-310.pyc
+byte-compiling /home/pt/nav_ws/install/lidar_scan/lib/python3.10/site-packages/lidar_scan/colorMappingNode.py to colorMappingNode.cpython-310.pyc
+byte-compiling /home/pt/nav_ws/install/lidar_scan/lib/python3.10/site-packages/lidar_scan/fixed_math.py to fixed_math.cpython-310.pyc
+running install_data
+creating /home/pt/nav_ws/install/lidar_scan/share/ament_index
+creating /home/pt/nav_ws/install/lidar_scan/share/ament_index/resource_index
+creating /home/pt/nav_ws/install/lidar_scan/share/ament_index/resource_index/packages
+copying resource/lidar_scan -> /home/pt/nav_ws/install/lidar_scan/share/ament_index/resource_index/packages
+copying package.xml -> /home/pt/nav_ws/install/lidar_scan/share/lidar_scan
+copying ekf_node.yaml -> /home/pt/nav_ws/install/lidar_scan/share/lidar_scan
+copying wamv.urdf -> /home/pt/nav_ws/install/lidar_scan/share/lidar_scan
+copying tahseen.rviz -> /home/pt/nav_ws/install/lidar_scan/share/lidar_scan
+creating /home/pt/nav_ws/install/lidar_scan/share/lidar_scan/launch
+copying launch/lidar.launch.py -> /home/pt/nav_ws/install/lidar_scan/share/lidar_scan/launch
+running install_egg_info
+Copying ../build/lidar_scan/lidar_scan.egg-info to /home/pt/nav_ws/install/lidar_scan/lib/python3.10/site-packages/lidar_scan-0.0.0-py3.10.egg-info
+running install_scripts
+Installing colorMappingNode script to /home/pt/nav_ws/install/lidar_scan/lib/lidar_scan
+Installing fixed_math script to /home/pt/nav_ws/install/lidar_scan/lib/lidar_scan
+Installing lidar_pub script to /home/pt/nav_ws/install/lidar_scan/lib/lidar_scan
+Installing pointcloud_to_laserscan_node script to /home/pt/nav_ws/install/lidar_scan/lib/lidar_scan
+writing list of installed files to '/home/pt/nav_ws/build/lidar_scan/install.log'
